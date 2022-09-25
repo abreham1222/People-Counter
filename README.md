@@ -12,6 +12,8 @@
 
 # Live Demo Link
 
+[Live Demo](https://tubular-truffle-440cce.netlify.app)
+
 [Live Demo Link](https://abreham1222.github.io/People-Counter/)
 
 ## Getting Started
