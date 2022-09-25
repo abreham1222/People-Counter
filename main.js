@@ -1,12 +1,16 @@
 let coutnBtn = document.getElementById("count")
+let previos = document.getElementById("previos-en");
 let count = 0;
 
 function increment() {
-  count = count + 1;
+  count += 1;
   coutnBtn.innerText = count;
 }
 
 function save() {
-  
+  let saveData = count + " - ";
+  previos.textContent += saveData;
+  coutnBtn.textContent = 0;
+  count = 0;
 }
 
